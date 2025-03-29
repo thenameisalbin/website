@@ -3,38 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Title Here</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            background-color: #800080; /* Purple background color */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            color: white; /* Set default text color to white for better contrast on purple */
-        }
-
-        .container {
-            text-align: center;
-            padding: 20px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            color: #333; /* Set text color within the container back to dark gray */
-        }
-
-        h1 {
-            color: inherit; /* Inherit text color from the container */
-            font-size: 2.5em;
-            margin: 0;
-        }
-    </style>
+    <link rel="icon" type="image/png" href="./logo.png">
+    <title>Quick Agencies - Your Trusted FMCG Wholesale Partner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hello World!</h1>
+    <div class="beta-banner">
+        <div class="container">
+            <p><strong>We've Just Launched!</strong> Our website is now live — we're still updating content and adding more details. Stay tuned for updates! For any urgent queries, feel free to contact us directly.</p>
+        </div>
     </div>
+
+    <nav id="navbar">
+        <div class="container">
+            <h2 class="logo">
+                <img src="./logo.png" alt="Logo" class="logo-img">
+                Quick Agencies
+            </h2>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Quick Agencies - Your Trusted FMCG Wholesale Partner</h1>
+            <p class="subheadline">Supplying quality FMCG food products to retailers, hotels, restaurants, catering services, and wholesalers across Kerala.</p>
+            <p class="intro">Quick Agencies is a leading wholesale distribution warehouse based in Eroor, Tripunithura, Kerala. We specialize in bulk supply of FMCG products such as edible oil and essential food items for businesses in the food and retail sector. With over 20 years of experience in the industry, we're known for our reliability, competitive pricing, and exceptional customer service.</p>
+            <div class="highlights">
+                <div class="highlight-item">
+                    <i class="fas fa-box"></i>
+                    <p>Bulk FMCG food product supply</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-hotel"></i>
+                    <p>Trusted by retailers, hotels & restaurants</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-truck"></i>
+                    <p>Free delivery within 20 km</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-clock"></i>
+                    <p>20+ years of experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>About Quick Agencies</h3>
+                    <p>Quick Agencies is a wholesale distribution firm located on N.S.S Karayogam Road in Eroor, Tripunithura, Kerala. With over 20 years of experience in marketing and supply chain management, we provide reliable and cost-effective access to fast-moving consumer goods (FMCG) for business clients across the region.</p>
+                    <br>
+                    <p>Our core product offerings include edible oil and other essential food items, supplied in bulk to meet the daily needs of food service providers and retailers.</p>
+                </div>
+                <div class="why-choose-us">
+                    <h3>Why Choose Quick Agencies?</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 20+ years of trusted wholesale experience</li>
+                        <li><i class="fas fa-check"></i> Free delivery within 20 km radius</li>
+                        <li><i class="fas fa-check"></i> Timely, consistent service</li>
+                        <li><i class="fas fa-check"></i> Competitive wholesale pricing</li>
+                        <li><i class="fas fa-check"></i> Friendly and responsive support team</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Connect – We're Here to Help</h2>
+            <p class="contact-intro">Have a question or need to place an order? We're ready to assist you with bulk FMCG supplies, product information, or pricing inquiries.</p>
+            
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p>Quick Agencies<br>N.S.S Karayogam Road<br>Eroor, Tripunithura – 682306<br>Kerala, India</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+919993098686">+91 99930 98686</a></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:contact@quickagencies.com">contact@quickagencies.com</a></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Business Hours</h3>
+                    <p>Monday to Saturday – 9:00 AM to 6:00 PM<br>Closed on Sundays</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Quick Agencies. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
